@@ -1,0 +1,78 @@
+
+.bookNavbar{
+  background: #20295d;
+  position: fixed;
+  width: 100%;
+}
+.bookNavbar .navLink{
+  color: #fff !important;
+  font-size: 20px;
+  text-decoration: none;
+}
+.bookNavbar .navLink:hover{
+  color: yellow !important ;
+}
+.btnPrimary{
+  background: yellow;
+  color: black;
+  font-weight: 500;
+}
+.btnPrimary:hover{
+  background: rgb(239, 239, 99);
+  color: black;
+  font-weight: 500;
+  box-shadow: 0 1px 5px #f7f7f7;;
+}
+.addRecordBlock{
+  background: #f4f4f4;
+  padding: 70px 0 0;
+  
+}
+.addRecord{
+  background: #ffffff;
+  box-shadow: 0 1px 7px #d0d0d0;
+  padding: 50px 0;
+  width: 750px;
+}
+.addRecordForms{
+  width: 500px;
+
+}
+.errorText{
+  margin: 0;
+  font-size: 11px;
+  color: red;
+}
+input.input-error{
+  border: 1px solid red;
+}
+.editBtn{
+  background: #7a7a7a;
+  color: #fff;
+  font-size: 12px; 
+}
+.editBtn:hover{
+  background: #9b9b9b;
+  color: #fff;
+}
+.delBtn{
+  background: red;
+  color: #fff;
+  font-size: 12px;
+  margin-left: 10px;
+}
+.delBtn:hover{
+  background: rgb(251, 48, 48);
+  color: #fff;
+}
+.bookRecords{
+  background: #f2f2f2;
+
+  padding: 70px 0 0;
+}
+.bookRecordsBlock{
+  background: #fff;
+  padding: 50px 20px;
+  box-shadow: 0px 1px 4px #ccc;
+  min-height: calc(100vh - 70px);
+}
